@@ -1,0 +1,4 @@
+C:\Users\jacob.lybaert\source\repos\voetballer\voetballer\obj\Debug\net10.0\voetballer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob.lybaert\source\repos\voetballer\voetballer\obj\Debug\net10.0\voetballer.AssemblyInfoInputs.cache
+C:\Users\jacob.lybaert\source\repos\voetballer\voetballer\obj\Debug\net10.0\voetballer.AssemblyInfo.vb
+C:\Users\jacob.lybaert\source\repos\voetballer\voetballer\obj\Debug\net10.0\voetballer.vbproj.CoreCompileInputs.cache
