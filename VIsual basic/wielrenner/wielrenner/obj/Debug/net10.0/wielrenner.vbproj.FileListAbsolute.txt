@@ -1,0 +1,15 @@
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\bin\Debug\net10.0\wielrenner.exe
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\bin\Debug\net10.0\wielrenner.deps.json
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\bin\Debug\net10.0\wielrenner.runtimeconfig.json
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\bin\Debug\net10.0\wielrenner.dll
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\bin\Debug\net10.0\wielrenner.pdb
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.AssemblyInfoInputs.cache
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.AssemblyInfo.vb
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.vbproj.CoreCompileInputs.cache
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.dll
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\refint\wielrenner.dll
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.pdb
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.genruntimeconfig.cache
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\ref\wielrenner.dll
+C:\Users\jacob.lybaert\source\repos\wielrenner\wielrenner\obj\Debug\net10.0\wielrenner.vbproj.Up2Date

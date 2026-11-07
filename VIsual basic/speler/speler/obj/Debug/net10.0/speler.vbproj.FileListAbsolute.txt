@@ -1,0 +1,15 @@
+C:\Users\jacob.lybaert\source\repos\speler\speler\bin\Debug\net10.0\speler.exe
+C:\Users\jacob.lybaert\source\repos\speler\speler\bin\Debug\net10.0\speler.deps.json
+C:\Users\jacob.lybaert\source\repos\speler\speler\bin\Debug\net10.0\speler.runtimeconfig.json
+C:\Users\jacob.lybaert\source\repos\speler\speler\bin\Debug\net10.0\speler.dll
+C:\Users\jacob.lybaert\source\repos\speler\speler\bin\Debug\net10.0\speler.pdb
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.AssemblyInfoInputs.cache
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.AssemblyInfo.vb
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.vbproj.CoreCompileInputs.cache
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.dll
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\refint\speler.dll
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.pdb
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.genruntimeconfig.cache
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\ref\speler.dll
+C:\Users\jacob.lybaert\source\repos\speler\speler\obj\Debug\net10.0\speler.vbproj.Up2Date

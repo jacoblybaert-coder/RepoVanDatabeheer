@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE6CF90-748D-4662-ADDC-ADD930FCB5F5}|salamander,tijger,mens\\salamander,tijger,mens.vbproj|c:\\users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\salamander,tijger,mens\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9AE6CF90-748D-4662-ADDC-ADD930FCB5F5}|salamander,tijger,mens\\salamander,tijger,mens.vbproj|solutionrelative:salamander,tijger,mens\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE6CF90-748D-4662-ADDC-ADD930FCB5F5}|salamander,tijger,mens\\salamander,tijger,mens.vbproj|c:\\users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\salamander,tijger,mens\\salamander,tijger,mens.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AE6CF90-748D-4662-ADDC-ADD930FCB5F5}|salamander,tijger,mens\\salamander,tijger,mens.vbproj|solutionrelative:salamander,tijger,mens\\salamander,tijger,mens.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "salamander,tijger,mens",
+              "DocumentMoniker": "C:\\Users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\salamander,tijger,mens\\salamander,tijger,mens.vbproj",
+              "RelativeDocumentMoniker": "salamander,tijger,mens\\salamander,tijger,mens.vbproj",
+              "ToolTip": "C:\\Users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\salamander,tijger,mens\\salamander,tijger,mens.vbproj",
+              "RelativeToolTip": "salamander,tijger,mens\\salamander,tijger,mens.vbproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-11-07T15:12:07.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\salamander,tijger,mens\\Program.vb",
+              "RelativeDocumentMoniker": "salamander,tijger,mens\\Program.vb",
+              "ToolTip": "C:\\Users\\jacob.lybaert\\source\\repos\\salamander,tijger,mens\\salamander,tijger,mens\\Program.vb",
+              "RelativeToolTip": "salamander,tijger,mens\\Program.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-11-07T15:08:54.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

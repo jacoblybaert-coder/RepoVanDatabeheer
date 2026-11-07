@@ -1,0 +1,52 @@
+﻿Imports System
+
+Public Class Voetballer
+    Public Naam As String
+    Public Leeftijd As Integer
+
+    Public trefzekerheid As Double
+
+    Private aantalGeleKaarten As Integer
+
+    Public Sub New(naam As String, leeftijd As Integer, trefzekerheid As Double)
+        Me.Naam = naam
+        Me.Leeftijd = leeftijd
+        Me.trefzekerheid = trefzekerheid
+        aantalGeleKaarten = 0
+    End Sub
+
+    Public Sub geeftstrafschop()
+        Dim random As New Random()
+        If random.Next(0, 100) < trefzekerheid Then
+            Console.WriteLine("binnen")
+        Else
+            Console.WriteLine("misser")
+        End If
+
+    End Sub
+
+    Public Function NaarKleedkamer() As String
+        If aantalGeleKaarten > 1 Then
+            Return "KLEEDKAMER"
+        End If
+
+        Return "SPELEN"
+    End Function
+
+    Public Sub GeefKaart()
+        If aantalGeleKaarten < 2 Then
+            aantalGeleKaarten += 1
+        End If
+    End Sub
+End Class
+
+Class keeper
+    Inherits Voetballer
+End Class
+
+Module Program
+    Sub Main(args As String())
+        Dim voetballer As New Voetballer("Jan", 25, 75.0)
+
+    End Sub
+End Module

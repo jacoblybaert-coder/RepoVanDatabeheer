@@ -1,53 +1,82 @@
+
 Imports System
 
 Public Class Voetballer
-    Public Naam As String
-    Public Leeftijd As Integer
+    Public strNaam As String
+    Public dblTrefzekerheid As Double
 
-    Public trefzekerheid As Double
+    Private intAantalGeleKaarten As Integer
 
-    Private aantalGeleKaarten As Integer
-
-    Public Sub New(naam As String, leeftijd As Integer, trefzekerheid As Double)
-        Me.Naam = naam
-        Me.Leeftijd = leeftijd
-        Me.trefzekerheid = trefzekerheid
-        aantalGeleKaarten = 0
-    End Sub
-
-    Public Sub geeftstrafschop()
-        Dim random As New Random()
-        If random.Next(0, 100) < trefzekerheid Then
-            Console.WriteLine("binnen")
-        Else
-            Console.WriteLine("misser")
-        End If
-
+    Public Sub New(naam As String, trefzekerheid As Double)
+        strNaam = naam
+        dblTrefzekerheid = trefzekerheid
+        intAantalGeleKaarten = 0
     End Sub
 
     Public Function NaarKleedkamer() As String
-        If aantalGeleKaarten > 1 Then
+        If intAantalGeleKaarten >= 2 Then
             Return "KLEEDKAMER"
+        Else
+            Return "SPELEN"
         End If
-
-        Return "SPELEN"
     End Function
 
     Public Sub GeefKaart()
-        If aantalGeleKaarten < 2 Then
-            aantalGeleKaarten += 1
+        If intAantalGeleKaarten < 2 Then
+            intAantalGeleKaarten += 1
         End If
     End Sub
 End Class
 
-Module Program
-    Sub Main(args As String())
-        Dim voetballer As New Voetballer("Jan", 25, 75.0)
+Public Class Trapper
+    Inherits Voetballer
 
-        Console.WriteLine(voetballer.NaarKleedkamer())
-        voetballer.GeefKaart()
-        Console.WriteLine(voetballer.NaarKleedkamer())
-        voetballer.GeefKaart()
-        Console.WriteLine(voetballer.NaarKleedkamer())
+    Public Sub New(naam As String, trefzekerheid As Double)
+        MyBase.New(naam, trefzekerheid)
+    End Sub
+
+    Public Function DoeStrafschop() As Double
+        Dim dblKans As Double =
+            ((dblTrefzekerheid - 0.3) + Rnd() * 0.4)
+
+        Return dblKans
+    End Function
+End Class
+
+Public Class Keeper
+    Inherits Voetballer
+
+    Public Sub New(naam As String, trefzekerheid As Double)
+        MyBase.New(naam, trefzekerheid)
+    End Sub
+
+    Public Function DoeStrafschop() As Double
+        Dim dblKans As Double =
+            ((dblTrefzekerheid - 0.2) + Rnd() * 0.3)
+
+        Return dblKans
+    End Function
+End Class
+
+Module Program
+    Public Sub Main()
+        Randomize()
+
+        Dim objMbappe As New Trapper("Kylian Mbappe", 0.8)
+        Dim objMartinez As New Keeper("Martinez", 0.6)
+
+        Dim dblTrapper As Double = objMbappe.DoeStrafschop()
+        Dim dblKeeper As Double = objMartinez.DoeStrafschop()
+
+        Console.WriteLine("Trapper: " & objMbappe.strNaam)
+        Console.WriteLine("Keeper: " & objMartinez.strNaam)
+
+        If dblKeeper > dblTrapper Then
+            Console.WriteLine("Gepakt door keeper!")
+        Else
+            Console.WriteLine("Binnen getrapt!")
+        End If
+
+        Console.ReadLine()
     End Sub
 End Module

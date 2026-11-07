@@ -1,0 +1,4 @@
+C:\Users\jacob.lybaert\source\repos\salamander,tijger,mens\salamander,tijger,mens\obj\Debug\net10.0\salamander,tijger,mens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob.lybaert\source\repos\salamander,tijger,mens\salamander,tijger,mens\obj\Debug\net10.0\salamander,tijger,mens.AssemblyInfoInputs.cache
+C:\Users\jacob.lybaert\source\repos\salamander,tijger,mens\salamander,tijger,mens\obj\Debug\net10.0\salamander,tijger,mens.AssemblyInfo.vb
+C:\Users\jacob.lybaert\source\repos\salamander,tijger,mens\salamander,tijger,mens\obj\Debug\net10.0\salamander,tijger,mens.vbproj.CoreCompileInputs.cache

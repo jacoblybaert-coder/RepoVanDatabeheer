@@ -1,0 +1,75 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Dim objTijger As New Tijger()
+        Dim objSalamander As New Salamander()
+        Dim objMens As New Mens("Rood")
+
+        Console.WriteLine("De Salamander heeft zoveel poten: " & objSalamander.GeefAantalPoten())
+        Console.WriteLine("De Tijger heeft zoveel poten: " & objTijger.GeefAantalPoten())
+        Console.WriteLine("De Mens heeft zoveel poten: " & objMens.GeefAantalPoten())
+        Console.WriteLine("De tijger heeft deze kleur van haar: " & objTijger.GeefHaarKleur())
+        Console.WriteLine("De mens heeft deze kleur van haar: " & objMens.GeefHaarKleur())
+        Console.WriteLine("De Salamander longcapaciteit (in liter): " & objSalamander.GeefLongCapaciteit())
+        Console.WriteLine("De Tijger longcapaciteit (in liter): " & objTijger.GeefLongCapaciteit())
+        Console.WriteLine("De Mens longcapaciteit (in liter): " & objMens.GeefLongCapaciteit())
+    End Sub
+End Module
+
+Public Class Salamander
+    Protected intAantalPoten As Integer
+    Protected intStaartLengteInCm As Integer
+    Protected dblLongCapaciteitInLiter As Double
+
+    Public Sub New()
+        intAantalPoten = 4
+        intStaartLengteInCm = 6
+        dblLongCapaciteitInLiter = 0.5
+    End Sub
+
+    Public Function GeefAantalPoten() As Integer
+        Return intAantalPoten
+    End Function
+
+    Public Function GeefLongCapaciteit() As Double
+        Return dblLongCapaciteitInLiter
+    End Function
+End Class
+
+Public Class Tijger
+    Inherits Salamander
+
+    Protected strHaarKleur As String
+
+    Public Sub New()
+        MyBase.New()
+        strHaarKleur = "Zwart"
+        dblLongCapaciteitInLiter = 2
+    End Sub
+
+    Public Function GeefHaarKleur() As String
+        Return strHaarKleur
+    End Function
+End Class
+
+Public Class Mens
+    Inherits Tijger
+
+    Private intAantalBenen As Integer
+    Private intAantalArmen As Integer
+
+    Public Sub New(haarKleur As String)
+        MyBase.New()
+        intAantalPoten = 0
+        intStaartLengteInCm = 0
+        dblLongCapaciteitInLiter = 7
+        strHaarKleur = haarKleur
+        intAantalBenen = 2
+        intAantalArmen = 2
+    End Sub
+
+    Public Function GeefAantalArmenEnBenen() As String
+        Return intAantalArmen & " armen en " & intAantalBenen & " benen"
+    End Function
+End Class
