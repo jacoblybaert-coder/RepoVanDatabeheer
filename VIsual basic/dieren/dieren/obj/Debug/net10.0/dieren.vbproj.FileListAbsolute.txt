@@ -1,0 +1,15 @@
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\bin\Debug\net10.0\dieren.exe
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\bin\Debug\net10.0\dieren.deps.json
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\bin\Debug\net10.0\dieren.runtimeconfig.json
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\bin\Debug\net10.0\dieren.dll
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\bin\Debug\net10.0\dieren.pdb
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.AssemblyInfoInputs.cache
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.AssemblyInfo.vb
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.vbproj.CoreCompileInputs.cache
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.dll
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\refint\dieren.dll
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.pdb
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.genruntimeconfig.cache
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\ref\dieren.dll
+C:\Users\jacob.lybaert\source\repos\dieren\dieren\obj\Debug\net10.0\dieren.vbproj.Up2Date

@@ -1,0 +1,12 @@
+﻿Imports System
+
+Class veelhoek
+    aantalzijden As Integer
+
+End Class
+
+Module Program
+    Sub Main(args As String())
+        Console.WriteLine("Hello World!")
+    End Sub
+End Module

@@ -1,0 +1,76 @@
+﻿Imports System
+
+Class dier
+    Protected strKleur As String
+
+    Public Sub New(kleur As String)
+        strKleur = kleur
+    End Sub
+
+    Public Function eet() As String
+        Return "Het dier eet."
+    End Function
+    Public Function slaap() As String
+        Return "Het dier slaapt."
+    End Function
+End Class
+
+Class hond
+    Inherits dier
+    Private baasje As String
+    Public Sub New(kleur As String)
+        MyBase.New(kleur)
+    End Sub
+    Public Function blaf() As String
+        Return "De hond blaft."
+    End Function
+
+    Public Function geefbaasje() As String
+        Return baasje
+    End Function
+
+    Public Function zeteigenaar(baasje As String) As String
+        Me.baasje = baasje
+        Return "Het baasje van de hond is " & baasje
+    End Function
+
+    Public Sub PrintInformatie()
+        Console.WriteLine("Dier: hond")
+        Console.WriteLine("Kleur: " & strKleur)
+        Console.WriteLine("Baasje: " & baasje)
+    End Sub
+
+End Class
+
+Class leeuw
+    Inherits dier
+    Private junglenaam As String
+    Public Sub New(kleur As String, junglenaam As String)
+        MyBase.New(kleur)
+        Me.junglenaam = junglenaam
+    End Sub
+
+    Public Function brul() As String
+        Return "De leeuw brult."
+    End Function
+
+    Public Function geefjunglenaam() As String
+        Return junglenaam
+    End Function
+
+    Public Function zetjunglenaam(junglenaam As String) As String
+        Me.junglenaam = junglenaam
+        Return "De naam van de leeuw in de jungle is " & junglenaam
+    End Function
+
+    Public Sub PrintInformatie()
+        Console.WriteLine("Dier: leeuw")
+        Console.WriteLine("Kleur: " & strKleur)
+        Console.WriteLine("Junglenaam: " & junglenaam)
+    End Sub
+End Class
+Module Program
+    Sub Main(args As String())
+
+    End Sub
+End Module

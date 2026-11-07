@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacob.lybaert\\source\\repos\\dieren\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27DDA3F3-ED15-3EFA-DB8D-276A4F40D7C8}|dieren\\dieren.vbproj|c:\\users\\jacob.lybaert\\source\\repos\\dieren\\dieren\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{27DDA3F3-ED15-3EFA-DB8D-276A4F40D7C8}|dieren\\dieren.vbproj|solutionrelative:dieren\\program.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.vb",
+              "DocumentMoniker": "C:\\Users\\jacob.lybaert\\source\\repos\\dieren\\dieren\\Program.vb",
+              "RelativeDocumentMoniker": "dieren\\Program.vb",
+              "ToolTip": "C:\\Users\\jacob.lybaert\\source\\repos\\dieren\\dieren\\Program.vb",
+              "RelativeToolTip": "dieren\\Program.vb",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwEEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-10-27T11:37:57.637Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

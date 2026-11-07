@@ -1,0 +1,15 @@
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\bin\Debug\net10.0\veelhoek.exe
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\bin\Debug\net10.0\veelhoek.deps.json
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\bin\Debug\net10.0\veelhoek.runtimeconfig.json
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\bin\Debug\net10.0\veelhoek.dll
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\bin\Debug\net10.0\veelhoek.pdb
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.AssemblyInfoInputs.cache
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.AssemblyInfo.vb
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.vbproj.CoreCompileInputs.cache
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.dll
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\refint\veelhoek.dll
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.pdb
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.genruntimeconfig.cache
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\ref\veelhoek.dll
+C:\Users\jacob.lybaert\source\repos\veelhoek\veelhoek\obj\Debug\net10.0\veelhoek.vbproj.Up2Date
